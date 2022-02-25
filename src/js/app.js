@@ -1,14 +1,13 @@
 import '../scss/app.scss';
-import html from "../about.html";
 /* Your JS Code goes here */
 
 /* Demo JS */
 import './demo.js';
-import './pixi_sketch.js';
+// import './pixi_sketch.js';
 /**
  * Animation API
  */
-const item = document.querySelector(".my-name");
+const item = document.querySelector(".logo");
 item.animate([
     { transform: 'translateX(0px)' },
     { transform: 'translateX(10px)' },
