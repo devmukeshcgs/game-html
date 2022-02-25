@@ -8,6 +8,7 @@ import './demo.js';
  * Animation API
  */
 const item = document.querySelector(".logo");
+
 item.animate([
     { transform: 'translateX(0px)' },
     { transform: 'translateX(10px)' },
